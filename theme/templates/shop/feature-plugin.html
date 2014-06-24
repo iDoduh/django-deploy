@@ -1,0 +1,41 @@
+{% load i18n %}
+<div id="features">
+    <div class="container">
+        <!-- header -->
+        <h2 class="section_header">
+            <hr class="left visible-desktop">
+            <span>{%  trans "Features" %}</span>
+            <hr class="right visible-desktop">
+        </h2>
+        <!-- feature list -->
+        <div class="row">
+            <div class="span4 feature">
+                <img src="{{ MEDIA_URL }}{{ instance.feature1.image }}" alt="feature1" class="thumb">
+
+                <h3>
+                    <i class="{{ instance.feature1.html_class }}"></i>{{ instance.feature1.name }}
+                </h3>
+
+                <p class="description">{{ instance.feature1.description }}</p>
+            </div>
+            <div class="span4 feature">
+                <img src="{{ MEDIA_URL }}{{ instance.feature2.image }}" alt="feature2" class="thumb">
+
+                <h3>
+                    <i class="{{ instance.feature2.html_class }}"></i>{{ instance.feature2.name }}
+                </h3>
+
+                <p class="description">{{ instance.feature2.description }}</p>
+            </div>
+            <div class="span4 feature">
+                <img src="{{ MEDIA_URL }}{{ instance.feature3.image }}" alt="feature3" class="thumb">
+
+                <h3>
+                    <i class="{{ instance.feature3.html_class }}"></i> {{ instance.feature3.name }}
+                </h3>
+
+                <p class="description">{{ instance.feature3.description }}</p>
+            </div>
+        </div>
+    </div>
+</div>

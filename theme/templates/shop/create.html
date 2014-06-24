@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{% block title %}Sign up{% endblock %}
+{% block content %}
+    <div class="container" style="padding-top: 40px;">
+        <form id="newSite" action="{{ request.get_full_path }}" class="form-horizontal span5 offset3 well"
+              method="post">{% csrf_token %}
+            <fieldset>
+                <legend>Create your online store</legend>
+            </fieldset>
+
+            <div class="control-group controls-row {% if form.name.errors %}error{% endif %}">
+                <label for="{{ form.name.html_name }}">{{ form.name.label }}</label>
+                <input class="span5" type="text" id="name" name="{{ form.name.html_name }}"
+                       autocomplete="off" spellcheck="false" required
+                       placeholder="Provide your site-name here"/>
+            </div>
+
+            <div class="control-group controls-row {% if form.domain.errors %}error{% endif %}">
+                <label for="{{ form.domain.html_name }}">{{ form.domain.label }}</label>
+                <input type="text" class="span3" id="domain" name="{{ form.domain.html_name }}"
+                       autocomplete="off" spellcheck="false" required pattern="[a-z0-9-]+" maxlength="40"
+                       placeholder="Choose your free subdomain"
+                        />
+                <select class="span2" name="host" id="host">
+                    <option value="isells.eu">.isells.eu</option>
+                    <option value="isells.us">.isells.us</option>
+                    <option value="isells.ru">.isells.ru</option>
+                </select>
+            </div>
+
+            <div class="control-group controls-row {% if form.country.errors or form.currency.errors %}error{% endif %}">
+                <label for="country">Country & Currency</label>
+                <select id="country" class="span3" name="{{ form.country.html_name }}">
+                    <option value="FR">France</option>
+                    <option value="DE">Germany</option>
+                    <option value="RU">Russia</option>
+                    <option value="UA">Ukraine</option>
+                </select>
+                <select id="currency" class="span2" name="{{ form.currency.html_name }}">
+                    <option>EUR</option>
+                    <option>USD</option>
+                    <option>RUR</option>
+                    <option>UAH</option>
+                </select>
+            </div>
+
+            <div class="control-group controls-row {% if form.plan.errors %}error{% endif %}">
+                <label for="plan">Plan</label>
+                <select id="plan" class="span5" name="plan">
+                    {% for plan in plans %}
+                        <option value="{{ plan.pk }}"
+                                {% if plan.pk|stringformat:"s" == form.plan.value %}selected="selected"{% endif %}>{{ plan.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="actions">
+                <button type="submit" class="btn btn-success btn-large">Create a store</button>
+            </div>
+        </form>
+
+    </div>
+    <script>
+
+        String.prototype.translit = function () {
+            var L = {
+                'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g',
+                'д': 'd', 'е': 'e', 'ё': 'yo', 'ж': 'zh',
+                'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k',
+                'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o',
+                'п': 'p', 'р': 'r', 'с': 's', 'т': 't',
+                'у': 'u', 'ф': 'f', 'х': 'kh', 'ц': 'ts',
+                'ч': 'ch', 'ш': 'sh', 'щ': 'sch',
+                'ы': 'y', 'э': 'e', 'ю': 'yu',
+                'я': 'ya'
+            };
+            var result = '', ch, next, cnt = -1;
+            var next;
+            for (var i = 0; i < this.length; i++) {
+                ch = this.charAt(i);
+                next = this.charAt(i + 1);
+                next = ch.toUpperCase() === ch ? next && next.toUpperCase() === next ? 2 : 1 : 0;
+
+                if (!ch.match(/[a-z\d]/i)) {
+                    ch = L[ch.toLowerCase()];
+                    if (ch && next) ch = next == 2 ? ch.toUpperCase() : ch.substr(0, 1).toUpperCase() + ch.substring(1);
+                }
+                if (ch) {
+                    result += (cnt > 0 ? '-' : '') + ch;
+                    cnt = 0;
+                } else if (cnt > -1) cnt++;
+            }
+            return result;
+        };
+
+        // rewrite all this code
+        jQuery(document).ready(function ($) {
+            jQuery.getScript('http://www.geoplugin.net/javascript.gp', function () {
+                $('#country').val(geoplugin_countryCode());
+                $('#currency').val(geoplugin_currencyCode());
+            });
+
+            var name = jQuery('#name'), domain = jQuery('#domain');
+
+            name.keyup(function () {
+                domain.val(name.val().translit().toLowerCase().substr(0, 40))
+            });
+            domain.change(function () {
+                name.off('keyup')
+                domain.parent().removeClass('error')
+            })
+
+            $("form").submit(function() {
+                $.ajax({
+                    async : false,
+                    url: "/shop/check_domain/" + domain.val() + '.' + jQuery('#host').val(),
+                    statusCode: {
+                        404: function() {
+                            $("form").off('submit');
+                            domain.val(domain.val() + '.' + jQuery('#host').val());
+                            $("form").submit();
+                        },
+                        200: function() {
+                            // we already have such sub-domain
+                            domain.parent().addClass('error')
+                            alert("Domain: " + domain.val() + '.' + jQuery('#host').val() + ' is already taken, please choice another one.');
+                        }
+                    }
+                })
+                return false;
+            });
+        });
+
+    </script>
+{% endblock %}
+{% block footer %}{% endblock %}
+
+</body>
+</html>

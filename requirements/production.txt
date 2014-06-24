@@ -1,0 +1,6 @@
+-r base.txt
+psycopg2
+gunicorn
+dj-database-url
+dj-static
+newrelic

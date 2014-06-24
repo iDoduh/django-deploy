@@ -1,0 +1,134 @@
+{% load menu_tags cms_tags sekizai_tags %}
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% page_attribute page_title %}</title>
+    <meta name="description" content="{% page_attribute meta_description %}"/>
+    <meta name="keywords" content="{% page_attribute meta_keywords %}"/>
+    {% render_block "css" %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ STATIC_URL }}theme/img/favicon.png " type="image/png" />
+    <!-- Bootstrap -->
+    <link href="{{ STATIC_URL }}theme/css/bootstrap/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}theme/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}theme/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}theme/css/external-pages.css">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}theme/css/blog.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    {% include "googla-analitycs.html" %}
+    <!-- zopim -->
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+                d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+                _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+            $.src='//cdn.zopim.com/?16qVSRjLGUhn6T1cDFwBSyy4G8PwgFa5';z.t=+new Date;$.
+                    type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+    </script>
+    <!--End of Zopim Live Chat Script-->
+</head>
+<body>
+{% cms_toolbar %}
+<!-- begins navbar -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="/"><img src="{{ STATIC_URL }}theme/img/logo.png" height="34" width="85" alt="logo" /></a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    {% show_menu 0 100 1 1 "top-menu.html" %}
+
+                    {% if user.is_authenticated %}
+                        <li class="dropdown">
+                            <a href="/external-pages/" class="dropdown-toggle" data-toggle="dropdown">
+                               [ {{ user.first_name }} {{ user.last_name }} ]
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="">
+                                    <a href="/shop">{% trans "My shops" %}</a>
+                                </li>
+                                <li class="">
+                                    <a href="{% url "django.contrib.auth.views.logout" %}">{% trans "Logout" %}</a>
+                                </li>
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li><a class="btn-header" href="/shop/login">{% trans "Sign in" %}</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ends navbar -->
+{% block main %}
+{% block content %}{% placeholder "content" %}{% endblock %}
+{% endblock %}
+{% block footer %}
+<!-- starts footer -->
+<div id="footer" class="coming-soon">
+    <div class="container">
+        <div class="row">
+            <div class="span8 offset2">
+                <p>{% trans "© 2013 iSells. Ecommerce Software Solutions by iSells — A shop in minutes, a business for life" %}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+<script src="{{ STATIC_URL }}theme/js/bootstrap/bootstrap.min.js"></script>
+<script src="{{ STATIC_URL }}theme/js/theme.js"></script>
+{% render_block "js" %}
+
+
+{% if LANGUAGE_CODE == 'ru' %}
+    <!-- zendesk russian version -->
+    <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.5/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+        @import url(//assets.zendesk.com/external/zenbox/v2.5/zenbox.css);
+    </style>
+    <script type="text/javascript">
+        if (typeof(Zenbox) !== "undefined") {
+            Zenbox.init({
+                dropboxID:   "20151656",
+                url:         "https://isells.zendesk.com",
+                tabID:       "Поддержка",
+                tabColor:    "#000033",
+                tabPosition: "Right"
+            });
+        }
+    </script>
+{% else %}
+    <!-- zendesk english version -->
+    <!-- <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script> -->
+    <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.5/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+        /* @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css); */
+        @import url(//assets.zendesk.com/external/zenbox/v2.5/zenbox.css);
+    </style>
+    <script type="text/javascript">
+        if (typeof(Zenbox) !== "undefined") {
+            Zenbox.init({
+                dropboxID:   "20149281",
+                url:         "https://isells.zendesk.com",
+                tabID:       "support",
+                tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_support_right.png",
+                tabColor:    "#000033",
+                tabPosition: "Right"
+            });
+        }
+    </script>
+{% endif %}
+
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Sign up{% endblock %}
+
+{% block content %}
+    <table id="siteList" class="offset1 span11 table table-striped table-hover" style="margin-top: 40px;">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Domain</th>
+            <th>Plan</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for site in websites %}
+            <tr class="shop_{{ site.pk }}">
+                <td class="id hide">{{ site.pk }}</td>
+                <td class="name">{{ site.name }}</td>
+                <td class="domain"><a target="_blank" href="//{{ site.domain }}">{{ site.domain }}</a></td>
+                <td>{{ site.plan.name }}</td>
+                <td>
+                    <div class="btn-group">
+                        <a class="btn btn-small edit" href="#"><i class="icon-edit"></i> </a>
+                        <a class="btn btn-small delete" href="/shop/delete/{{ site.pk }}/"><i class="icon-trash"></i> </a>
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <div class="offset1 span11 btn-toolbar">
+        <a class="btn btn-success" href="create/"><i class="icon-plus icon-white"></i> Create a new
+            store</a>
+    </div>
+
+    <!-- Modal -->
+    <div id="deleteModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Are you sure want to delete a web-store?</h3>
+        </div>
+        <div class="modal-body">
+            <p>One fine body…</p>
+
+            <p class="text-left muted">This operation cannot be undone!</p>
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+            <button class="btn btn-danger delete">Delete</button>
+        </div>
+    </div>
+
+    <script>
+        $('#siteList td a.delete').click(function () {
+            if (confirm("Are you sure?")) {
+                return true;
+            } else {
+                return false;
+            }
+        })
+    </script>
+{% endblock %}
+{% block footer %}{% endblock %}
+

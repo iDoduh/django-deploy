@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-06 13:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: core/settings.py:31
+msgid "German"
+msgstr ""
+
+#: core/settings.py:31 core/settings.py:44
+msgid "Russian"
+msgstr ""
+
+#: core/settings.py:37
+msgid "English"
+msgstr ""
+
+#: shop/cms_plugins.py:10
+msgid "Feature Plugin"
+msgstr ""
+
+#: shop/cms_plugins.py:22
+msgid "Features list"
+msgstr ""
+
+#: shop/cms_plugins.py:34
+msgid "Plans Plugin"
+msgstr ""
+
+#: shop/cms_plugins.py:46
+msgid "Carousel Plugin"
+msgstr ""
+
+#: theme/templates/base.html:56
+msgid "My shops"
+msgstr "Мои магазины"
+
+#: theme/templates/base.html:59
+msgid "Logout"
+msgstr "Выйти"
+
+#: theme/templates/base.html:64
+msgid "Sign in"
+msgstr "Войти"
+
+#: theme/templates/base.html:81
+msgid ""
+"© 2013 iSells. Ecommerce Software Solutions by iSells — A shop in minutes, a "
+"business for life"
+msgstr ""
+"© 2013 iSells. Решения для электронной коммерции от iSells - магазин за "
+"минуты, успешный бизнес на всю жизнь."
+
+#: theme/templates/contact-us.html:11
+msgid "Contact iSells"
+msgstr "Связаться с iSells"
+
+#: theme/templates/contact-us.html:27
+msgid ""
+"Contact us about anything related to iSells. We'll do our best to get back "
+"to you as soon as possible, but responses could take up to 48 hours. Don't "
+"hesitate."
+msgstr ""
+"Обращайтесь к нам с любыми вопросами о работе iSells. Мы сделаем все "
+"возможное, чтобы ответить вам как можно быстрее (как правило, не более 48 "
+"часов). Не стесняйтесь - мы всегда рады помочь!"
+
+#: theme/templates/contact-us.html:36
+msgid "Name"
+msgstr "Имя"
+
+#: theme/templates/contact-us.html:43
+msgid "Email"
+msgstr ""
+
+#: theme/templates/contact-us.html:50
+msgid "Phone"
+msgstr "Телефон"
+
+#: theme/templates/contact-us.html:57
+msgid "City"
+msgstr "Город"
+
+#: theme/templates/contact-us.html:64
+msgid "Comment"
+msgstr "Комментарий"
+
+#: theme/templates/contact-us.html:72
+msgid "Send"
+msgstr "Отправить"
+
+#: theme/templates/contact-us.html:79
+msgid "Address"
+msgstr "Адрес"
+
+#: theme/templates/contact-us.html:82
+msgid "CUBE Office Center Prague 6 <br>Evropská 178 <br>160 00 Praha 6"
+msgstr "ул. М. Бирюзова-51Б,<br> Полтава, Украина <br>36006"
+
+#: theme/templates/contact-us.html:92
+msgid "info@isells.eu"
+msgstr "info@isells.ru"
+
+#: theme/templates/shop/carousel-plugin.html:19
+#: theme/templates/shop/carousel-plugin.html:32
+msgid "Get a Store Now!"
+msgstr "Создать магазин"
+
+#: theme/templates/shop/feature-plugin.html:7
+#: theme/templates/shop/featurelist-plugin.html:7
+msgid "Features"
+msgstr "Возможности"
+
+#: theme/templates/shop/featurelist-plugin.html:14
+msgid ""
+"Whether you need to create a brand from scratch, including marketing "
+"materials and a beautiful and functional website or whether you are looking "
+"for a design refresh pleased with the results."
+msgstr ""
+"Не важно создаете ли вы новый бренд, красивый и функциональный сайт с нуля "
+"или хотите лишь обновить дизайн - вы останетесь  довольны результатом. Мы "
+"определенно способны на это!"
+
+#: theme/templates/shop/login.html:3
+msgid "Log in"
+msgstr "Войти"
+
+#: theme/templates/shop/login.html:12
+msgid "Get access to your account"
+msgstr "Получите доступ к аккаунту"
+
+#: theme/templates/shop/login.html:19
+msgid "Sign in with Facebook"
+msgstr "Войти через Facebook"
+
+#: theme/templates/shop/login.html:23 theme/templates/shop/login.html.py:34
+msgid "or"
+msgstr "или"
+
+#: theme/templates/shop/login.html:30
+msgid "Sign in with Google Account"
+msgstr "Войти через Google Account"
+
+#: theme/templates/shop/login.html:41
+msgid "Sign in with Linkedin"
+msgstr "Войти через Linkedin"
+
+#: theme/templates/shop/plans-plugin.html:8
+msgid "Pricing"
+msgstr "Цены"
+
+#: theme/templates/shop/plans-plugin.html:10
+msgid "See all plan details here"
+msgstr "Условия тарифных планов тут"
+
+#: theme/templates/shop/plans-plugin.html:26
+msgid "Per Month"
+msgstr "За Месяц"
+
+#: theme/templates/shop/plans-plugin.html:34
+msgid "Try now"
+msgstr "Попробовать"
+
+#: theme/templates/zinnia/base.html:14
+msgid "RSS Feed of latest entries"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:16
+msgid "RSS Feed of latest discussions"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:33
+msgid "Keywords..."
+msgstr ""
+
+#: theme/templates/zinnia/base.html:36
+msgid "Categories"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:39
+msgid "Authors"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:43
+msgid "Tags"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:47
+msgid "Recent entries"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:51
+msgid "Recent comments"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:55
+msgid "Recent linkbacks"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:59
+msgid "Random entries"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:63
+msgid "Popular entries"
+msgstr ""
+
+#: theme/templates/zinnia/base.html:67
+msgid "Archives"
+msgstr ""
+
+#: theme/templates/zinnia/tags/categories.html:6
+#, python-format
+msgid "Show all entries in %(category)s"
+msgstr ""
+
+#: theme/templates/zinnia/tags/categories.html:10
+msgid "No categories yet."
+msgstr ""
+
+#~ msgid "Social media"
+#~ msgstr "Социальные сети"

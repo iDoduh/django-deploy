@@ -1,0 +1,41 @@
+{% load i18n %}
+<div id="pricing" class="pricing_page">
+    <div class="container">
+        <!-- header -->
+        <h2 class="section_header">
+            <hr class="left visible-desktop">
+                <span>
+                    {% trans "Pricing" %}
+                    <small>
+                        {% trans "See all plan details here" %}
+                    </small>
+                </span>
+            <hr class="right visible-desktop">
+        </h2>
+
+        <!-- pricing charts 1 -->
+        <div class="row">
+            {% for plan in plans %}
+                <div class="span4">
+                    <div class="price_wrapper {{ plan.slug }} regular">
+                        <div class="header">
+                            <span>{{ plan.name }}</span>
+
+                            <div class="price">
+                                <span>$ {{ plan.price }}</span>
+                                {% trans "Per Month" %}
+                            </div>
+                        </div>
+                        <div class="section">
+                            <h3>{{ plan.description }}</h3>
+                            {% autoescape off %}
+                                {{ plan.options }}
+                            {% endautoescape %}
+                            <a href="/shop/create/" class="btn">{% trans "Try now" %}</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

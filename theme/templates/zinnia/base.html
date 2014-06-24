@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% load zinnia_tags i18n %}
+{% load url from future %}
+
+{% block meta-keywords %}{% get_tags as entry_tags %}{{ entry_tags|join:", " }}{% endblock %}
+
+{% block link %}
+    <link rel="index" href="{% url 'zinnia_entry_archive_index' %}"/>
+    <link rel="author" type="text/plain" href="{% url 'zinnia_humans' %}"/>
+    <link rel="EditURI" type="application/rsd+xml" href="{% url 'zinnia_rsd' %}"/>
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{% url 'zinnia_wlwmanifest' %}"/>
+    <link rel="search" type="application/opensearchdescription+xml" title="Zinnia's Blog"
+          href="{% url 'zinnia_opensearch' %}"/>
+    <link rel="alternate" type="application/rss+xml" title="{% trans "RSS Feed of latest entries" %}"
+          href="{% url 'zinnia_entry_latest_feed' %}"/>
+    <link rel="alternate" type="application/rss+xml" title="{% trans "RSS Feed of latest discussions" %}"
+          href="{% url 'zinnia_discussion_latest_feed' %}"/>
+    {% get_archives_entries "zinnia/tags/archives_entries_link.html" %}
+{% endblock %}
+
+{% block breadcrumbs %}
+    {% zinnia_breadcrumbs %}
+{% endblock %}
+
+{% block main %}
+    <div id="blog_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="span8">{% block content %} {% endblock %}</div>
+                <div class="span3 sidebar offset1">
+                    <form method="get" action="{% url 'zinnia_entry_search' %}">
+                        <input type="text" name="pattern" class="input-large search-query"
+                               placeholder="{% trans "Keywords..." %}"/>
+                    </form>
+
+                    <h4 class="sidebar_header">{% trans "Categories" %}</h4>
+                    {% get_categories %}
+                    <div id="widget-authors" class="widget">
+                        <h4 class="sidebar_header">{% trans "Authors" %}</h4>
+                        {% get_authors %}
+                    </div>
+                    <div id="widget-tags" class="widget">
+                        <h3>{% trans "Tags" %}</h3>
+                        {% get_tag_cloud %}
+                    </div>
+                    <div id="widget-recents" class="widget">
+                        <h3>{% trans "Recent entries" %}</h3>
+                        {% get_recent_entries %}
+                    </div>
+                    <div id="widget-comments" class="widget">
+                        <h3>{% trans "Recent comments" %}</h3>
+                        {% get_recent_comments %}
+                    </div>
+                    <div id="widget-linkbacks" class="widget">
+                        <h3>{% trans "Recent linkbacks" %}</h3>
+                        {% get_recent_linkbacks %}
+                    </div>
+                    <div id="widget-randoms" class="widget">
+                        <h3>{% trans "Random entries" %}</h3>
+                        {% get_random_entries %}
+                    </div>
+                    <div id="widget-populars" class="widget">
+                        <h3>{% trans "Popular entries" %}</h3>
+                        {% get_popular_entries %}
+                    </div>
+                    <div id="widget-archives" class="widget">
+                        <h3>{% trans "Archives" %}</h3>
+                        {% get_archives_entries_tree %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock main %}
+
+
+<div class="span3 sidebar offset1">
+
+    <input type="text" class="input-large search-query" placeholder="Search">
+
+    <h4 class="sidebar_header">
+        Menu
+    </h4>
+
+    <ul class="sidebar_menu">
+        <li><a href="#">Suspendisse Semper Ipsum</a></li>
+        <li><a href="#">Maecenas Euismod Elit</a></li>
+        <li><a href="#">Suspendisse Semper Ipsum</a></li>
+        <li><a href="#">Maecenas Euismod Elit</a></li>
+        <li><a href="#">Suspendisse Semper Ipsum</a></li>
+    </ul>
+
+    <h4 class="sidebar_header">
+        Recent posts
+    </h4>
+
+    <ul class="recent_posts">
+        <li>
+            <div class="row">
+                <div class="span1">
+                    <a href="blog-post.html">
+                        <img class="thumb" alt="thumb post" src="img/pic_blog.png">
+                    </a>
+                </div>
+                <div class="span2">
+                    <a class="link" href="blog-post.html">Suspendisse Semper Ipsum</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="row">
+                <div class="span1">
+                    <a href="blog-post.html">
+                        <img class="thumb" alt="thumb post" src="img/pic_blog.png">
+                    </a>
+                </div>
+                <div class="span2">
+                    <a class="link" href="blog-post.html">Maecenas Euismod Elit</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="row">
+                <div class="span1">
+                    <a href="blog-post.html">
+                        <img class="thumb" alt="thumb post" src="img/pic_blog.png">
+                    </a>
+                </div>
+                <div class="span2">
+                    <a class="link" href="blog-post.html">Suspendisse Semper Ipsum</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</div>

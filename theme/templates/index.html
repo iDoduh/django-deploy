@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% load menu_tags cms_tags sekizai_tags %}
+{% block main %}
+    <div id="hero">
+        <div class="container">
+            <!-- starts carousel -->
+            <div class="row animated fadeInDown">
+                <div class="span12">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- carousel items -->
+                        <div class="carousel-inner">
+                            <!-- slide -->
+                            <div class="active item slide1">
+                                <div class="row">
+                                    <div class="span6">
+                                        <img src="{{ STATIC_URL }}theme/img/slide1.png" alt="slide1" />
+                                    </div>
+                                    <div class="span4">
+                                        <h1>
+                                            Use iSells to create your online store
+                                        </h1>
+                                        <p>
+                                            Everything you need to start selling online – today. The best solutions and newest technologies for the greatest result! Lots of additional services make your online business easy going.
+                                        </p>
+                                        <a href="/shop/create/" class="btn btn-success btn-large">Get a Store Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide -->
+                            <div class="item slide2">
+                                <div class="row">
+                                    <div class="span4 animated fadeInUpBig">
+                                        <h1>New to ecommerce?</h1>
+                                        <p>
+                                            From registering a domain name to launching your store, iSells is there every step of the way.
+                                            All plans come with a stylish ecommerce website, a user-friendly administration panel, and secure hosting - plus, your very own Support Guru to get you started.
+                                        </p>
+                                        <a href="/shop/create/" class="btn btn-success btn-large">Get a Store Now!</a>
+                                    </div>
+                                    <div class="span6 animated fadeInDownBig">
+                                        <img src="{{ STATIC_URL }}theme/img/slide2.png" alt="slide2" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide -->
+                            <div class="item slide3">
+                                <div class="row">
+                                    <div class="span6">
+                                        <img src="{{ STATIC_URL }}theme/img/slide1.png" alt="slide1" />
+                                    </div>
+                                    <div class="span4">
+                                        <h1>
+                                            Your online shop is ready to go in minutes
+                                        </h1>
+                                        <p>
+                                            A few easy steps to marvelous, successful ecommerce store for thousands of sells.
+                                            We have thought of all your needs on purpose, so everything is ready for a start and all you need is just to choose a suitable way.
+                                        </p>
+                                        <a href="/shop/create/" class="btn btn-success btn-large">Get a Store Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide -->
+
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="intro">
+        <div class="container">
+            <h1>All the features you want, none of the clutter. iSells handles all the hassles of online retail.</h1>
+        </div>
+    </div>
+
+    {% placeholder "content" %}
+
+    <!-- starts testimonial -->
+    <div id="testimonials">
+        <div class="container">
+            <div class="controls">
+                <hr>
+            </div>
+            <div class="phrases_wrapper">
+                <div class="phrase">
+                    <div class="row">
+                        <div class="span7">
+                            <p class="testimony">
+                                iSells is one of those tools that every entrepreneur should be using. With this easy to use ecommerce solution, entrepreneurs save time and money, so they can focus on other aspects of their business.
+                                <span>"</span>
+                            </p>
+                        </div>
+                        <div class="span3 offset1">
+                            <div class="pic">
+                                <img src="{{ STATIC_URL }}theme/img/pic1.jpg" alt="author" class="img-circle" />
+                                <span class="name">Alejandra Galvan Castillo</span>
+                                <span class="position">Company name</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

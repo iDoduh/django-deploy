@@ -1,0 +1,36 @@
+{% load i18n %}
+<div class="container features_page">
+    <div class="features2">
+        <!-- features 2 -->
+        <h2 class="section_header">
+            <hr class="left visible-desktop">
+            <span>{% trans "Features" %}</span>
+            <hr class="right visible-desktop">
+        </h2>
+
+        <div class="row">
+            <div class="span12">
+                <h3 class="intro">
+                  {% trans "Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh pleased with the results." %}
+                </h3>
+            </div>
+        </div>
+
+        {% for feature in features %}
+            {% if forloop.counter0|divisibleby:3 %}
+                <div class="row">
+            {% endif %}
+                    <div class="span4 feature2">
+                        <div class="icon">
+                            <i class="{{ feature.html_class }}"></i></div>
+                        <h4>{{ feature.name }}</h4>
+
+                        <p>{{ feature.description }}</p>
+                    </div>
+        {% if forloop.counter|divisibleby:3 or forloop.last %}
+            </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+</div>

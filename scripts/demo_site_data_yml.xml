@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2012-07-18 10:05">
+<shop>
+<name>realmart</name>
+<company>realmart</company>
+<url>http://realmart.com.ua</url>
+<platform>Aqua-CMS</platform>
+<version>1.9</version>
+<agency><![CDATA[ООО «Аква-вебстудио»]]></agency>
+<email>info@aquaweb.com.ua</email>
+<currencies>
+    <currency id="UAH" rate="1"/>
+</currencies>
+<categories>
+    <category id="200206869" parentId="200206883">Встраиваемые посудомоечные машины</category>
+    <category id="200206870" parentId="200206883">Встраиваемые микроволновые печи</category>
+    <category id="200206871" parentId="200206875">Автотелевизоры</category>
+    <category id="200206872" parentId="200206883">Встраиваемые стиральные машины</category>
+    <category id="200206873" parentId="200206875">Автоакустика</category>
+    <category id="200206874" parentId="200206875">Автомагнитолы</category>
+    <category id="200206875">Автомобильная техника</category>
+    <category id="200206881" parentId="200206883">Встраиваемые духовые шкафы</category>
+    <category id="200206882" parentId="200206883">Встраиваемые рабочие поверхности</category>
+    <category id="200206883">Встраиваимая техника</category>
+    <category id="200206884" parentId="200206897">Стиральные машины с Фронтальной загрузкой</category>
+    <category id="200206885" parentId="200206939">Стиральные машины с Вертикальной загрузкой</category>
+    <category id="200206916" parentId="200206914">Blu-ray плеер</category>
+    <category id="200206915" parentId="200206914">DVD HD плееры</category>
+    <category id="200206917" parentId="200206914">DVD плеер портативный</category>
+    <category id="200206950" parentId="200206875">GPS-навигаторы</category>
+    <category id="200206947">АРХИВТелефоны и портативная техника</category>
+    <category id="200206951" parentId="200206875">Автомоб.усилители</category>
+    <category id="200206954" parentId="200206875">Автомобильные видеорегистраторы</category>
+    <category id="200206919" parentId="200206913">Аудио техника</category>
+    <category id="200206941" parentId="200206936">Блинницы</category>
+    <category id="200206900" parentId="200206897">Водонагреватели</category>
+    <category id="200206942" parentId="200206939">Для индивидуального ухода</category>
+    <category id="200206936">Для кухни</category>
+    <category id="200206921" parentId="200206919">Домашние кинотеатры</category>
+    <category id="200206926" parentId="200206923">Жидкокристаллические</category>
+    <category id="200206925" parentId="200206923">Кинескопные</category>
+    <category id="200206909" parentId="200206936">Кофеварки и кофемашины</category>
+    <category id="200206910" parentId="200206936">Кофемолки</category>
+    <category id="200206897">Крупная бытовая техника</category>
+    <category id="200206895" parentId="200206936">Кухонные весы</category>
+    <category id="200206930" parentId="200206936">Кухонные комбайны и измельчители</category>
+    <category id="200206920" parentId="200206919">Магнитолы</category>
+    <category id="200206940" parentId="200206942">Машинки для стрижки</category>
+    <category id="200206914" parentId="200206913">Медиаплееры</category>
+    <category id="200206939">Мелкая бытовая техника</category>
+    <category id="200206937" parentId="200206936">Микроволновые печи</category>
+    <category id="200206946" parentId="200206936">Миксеры</category>
+    <category id="200206953" parentId="200206936">Мини-печи, ростеры</category>
+    <category id="200206922" parentId="200206919">Музыкальные центры</category>
+    <category id="200206893" parentId="200206936">Мультиварки</category>
+    <category id="200206903" parentId="200206936">Мясорубки</category>
+    <category id="200206907" parentId="200206942">Напольные весы</category>
+    <category id="200206957" parentId="200206956">Оверлоки и распошивальные машины</category>
+    <category id="200206929" parentId="200206936">Пароварки</category>
+    <category id="200206924" parentId="200206923">Плазменые панели</category>
+    <category id="200206898" parentId="200206897">Плиты</category>
+    <category id="200206952" parentId="200206897">Полуавтоматические Стиральные машины</category>
+    <category id="200206899" parentId="200206897">Посудомоечные машины</category>
+    <category id="200206948" parentId="200206947">Проводные телефоны</category>
+    <category id="200206894" parentId="200206939">Пылесосы</category>
+    <category id="200206912" parentId="200206947">Сотовые телефоны</category>
+    <category id="200206918" parentId="200206914">Стационарные медиаплееры</category>
+    <category id="200206923" parentId="200206913">Телевизоры</category>
+    <category id="200206913">Телевизоры и Аудио,Видео техника</category>
+    <category id="200206933" parentId="200206936">Тостеры</category>
+    <category id="200206935" parentId="200206939">Утюги</category>
+    <category id="200206932" parentId="200206936">Фритюрницы</category>
+    <category id="200206943" parentId="200206936">Хлебопечки</category>
+    <category id="200206891" parentId="200206897">Холодильники</category>
+    <category id="200206956" parentId="200206939">Швейное оборудование</category>
+    <category id="200206934" parentId="200206956">Швейные машины</category>
+    <category id="200206896" parentId="200206942">Электробритвы мужские</category>
+    <category id="200206904" parentId="200206936">Электрочайники и термопоты</category>
+    <category id="200206905" parentId="200206942">Эпиляторы и женские электробритвы</category>
+</categories>
+<offers>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<offer id="200197972" available="true">
+    <url>http://realmart.com.ua/read/product/show/electrolux-esl-65070-r</url>
+    <price>4218</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206869</categoryId>
+    <picture>http://realmart.com.ua/file/171529119</picture>
+    <name><![CDATA[Electrolux ESL 65070 R]]></name>
+    <vendorCode><![CDATA[00000006353]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>полноразмерная напольная</li>
+<li>полностью встраиваемая</li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>малый расход электричества</li>
+<li>тихая работа</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197961" available="true">
+    <url>http://realmart.com.ua/read/product/show/electrolux-esl-46050</url>
+    <price>3687</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206869</categoryId>
+    <picture>http://realmart.com.ua/file/171529111</picture>
+    <name><![CDATA[Electrolux ESL 46050]]></name>
+    <vendorCode><![CDATA[00000006350]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>узкая напольная</li>
+<li>полностью встраиваемая</li>
+<li>сушка путем испарения горячих капель </li>
+<li>возможность подключения к горячей воде</li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200197957" available="true">
+    <url>http://realmart.com.ua/read/product/show/electrolux-esl-43020</url>
+    <price>3261</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206869</categoryId>
+    <picture>http://realmart.com.ua/file/171529109</picture>
+    <name><![CDATA[Electrolux ESL 43020]]></name>
+    <vendorCode><![CDATA[00000006365]]></vendorCode>
+    <description><![CDATA[<ul>
+<li><M>—</M>узкая напольная 
+<li><M>—</M>полностью встраиваемая 
+<li><M>—</M>экономичный расход воды 
+<li><M>—</M>минимальный расход электричества 
+<li><M>—</M>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197958" available="true">
+    <url>http://realmart.com.ua/read/product/show/electrolux-esl-43500</url>
+    <price>3722</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206869</categoryId>
+    <picture>http://realmart.com.ua/file/171529107</picture>
+    <name><![CDATA[Electrolux ESL 43500]]></name>
+    <vendorCode><![CDATA[00000006359]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>узкая напольная</li>
+<li>полностью встраиваемая</li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197015" available="true">
+    <url>http://realmart.com.ua/read/product/show/beko-dsn-6840-fx</url>
+    <price>3496</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206869</categoryId>
+    <picture>http://realmart.com.ua/file/171528336</picture>
+    <name><![CDATA[BEKO DSN 6840 FX]]></name>
+    <vendorCode><![CDATA[00000006282]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>полноразмерная напольная</li>
+<li>встраивается</li>
+<li>свободный доступ к панели управления </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200197014" available="true">
+    <url>http://realmart.com.ua/read/product/show/beko-dsn-2521-x</url>
+    <price>3400</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206869</categoryId>
+    <picture>http://realmart.com.ua/file/171528335</picture>
+    <name><![CDATA[BEKO DSN 2521 X]]></name>
+    <vendorCode><![CDATA[00000006283]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>полноразмерная напольная</li>
+<li>встраивается</li>
+<li>свободный доступ к панели управления </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>малый расход электричества</li>
+<li>тихая работа</li>
+</ul>]]></description>
+</offer>
+<offer id="200383896" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383896</url>
+    <price>4507</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171555649</picture>
+    <name><![CDATA[Встраиваемая духовка  Samsung BTS16D4G]]></name>
+    <vendorCode><![CDATA[00000019683]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>59.5 х 59.5 x 57.2 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели утапливаемые</li>
+<li>дисплей</li>
+<li>выдвижная система для противней</li>
+</ul>]]></description>
+</offer>
+
+<offer id="200198955" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-24</url>
+    <price>2159</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527670</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH 21 BK]]></name>
+    <vendorCode><![CDATA[00000009456]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>60 см</li>
+<li>режим работы гриля</li>
+<li>переключатели поворотные</li>
+<li>дверца откидная</li>
+</ul>]]></description>
+</offer>
+<offer id="200198956" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-25</url>
+    <price>2559</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527669</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH 21 IX]]></name>
+    <vendorCode><![CDATA[00000009451]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>60 см</li>
+<li>режим работы гриля</li>
+<li>переключатели поворотные</li>
+<li>дверца откидная</li>
+</ul>]]></description>
+</offer>
+<offer id="200198959" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-28</url>
+    <price>2204</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527667</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH 51 IX]]></name>
+    <vendorCode><![CDATA[00000009457]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>60 х 60 x 56 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели поворотные</li>
+<li>дверца откидная</li>
+</ul>]]></description>
+</offer>
+<offer id="200198960" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-29</url>
+    <price>2834</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527666</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH 53 IX]]></name>
+    <vendorCode><![CDATA[00000009524]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>59.5 х 59.5 x 54.5 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели поворотные</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198961" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-30</url>
+    <price>2834</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527665</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH 532 IX]]></name>
+    <vendorCode><![CDATA[00000009470]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>60 х 60 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели поворотные</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198970" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-39</url>
+    <price>3510</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527657</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH G (BK)]]></name>
+    <vendorCode><![CDATA[00000009526]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовая независимая</li>
+<li>59.5 х 59.5 x 55 см</li>
+<li>режим работы гриля</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>дверца откидная</li>
+</ul>]]></description>
+</offer>
+<offer id="200198971" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-40</url>
+    <price>3251</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527656</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH G (IX)]]></name>
+    <vendorCode><![CDATA[00000009455]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовая независимая</li>
+<li>59.5 х 59.5 x 55 см</li>
+<li>режим работы гриля</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>дверца откидная</li>
+</ul>]]></description>
+</offer>
+<offer id="200198972" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-hotpoin-41</url>
+    <price>3336</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171527655</picture>
+    <name><![CDATA[Встраиваемая духовка  Hotpoint-Ariston FH G (WH)]]></name>
+    <vendorCode><![CDATA[00000009453]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовая независимая</li>
+<li>59.5 х 59.5 x 55 см</li>
+<li>режим работы гриля</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>дверца откидная</li>
+</ul>]]></description>
+</offer>
+<offer id="200198202" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-gorenje-46</url>
+    <price>6352</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171525704</picture>
+    <name><![CDATA[Встраиваемая духовка  Gorenje BO 87-ORA-W]]></name>
+    <vendorCode><![CDATA[00000009307]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>59.5 х 59.7 x 56.5 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели сенсорные</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198201" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-gorenje-45</url>
+    <price>6352</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171525703</picture>
+    <name><![CDATA[Встраиваемая духовка  Gorenje BO 87-ORA-B]]></name>
+    <vendorCode><![CDATA[00000009309]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>59.5 х 59.7 x 56.5 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели сенсорные</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198198" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-gorenje-42</url>
+    <price>4085</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171525701</picture>
+    <name><![CDATA[Встраиваемая духовка  Gorenje BO 755 SYW]]></name>
+    <vendorCode><![CDATA[00000009326]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>59.5 х 59.7 x 56.5 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели поворотные</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198197" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-gorenje-41</url>
+    <price>3874</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171525700</picture>
+    <name><![CDATA[Встраиваемая духовка  Gorenje BO 755 SYB]]></name>
+    <vendorCode><![CDATA[00000009330]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>59.5 х 59.7 x 56.5 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели поворотные</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198196" available="true">
+    <url>http://realmart.com.ua/read/product/show/vstraivaemaya-dukhovka-gorenje-40</url>
+    <price>3997</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206881</categoryId>
+    <picture>http://realmart.com.ua/file/171525699</picture>
+    <name><![CDATA[Встраиваемая духовка  Gorenje BO 755 SYA]]></name>
+    <vendorCode><![CDATA[00000009344]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрическая независимая</li>
+<li>класс А по энергопотреблению</li>
+<li>59.5 х 59.7 x 56.5 см</li>
+<li>режим работы гриля</li>
+<li>режим конвекции</li>
+<li>переключатели поворотные</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200197364" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-prp626b90e</url>
+    <price>5750</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528626</picture>
+    <name><![CDATA[Варочная поверхность Bosch PRP626B90E]]></name>
+    <vendorCode><![CDATA[00000008392]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>газовая</li>
+<li>стеклокерамическая поверхность</li>
+<li>4 газовые конфорки</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>независимая установка</li>
+</ul>]]></description>
+</offer>
+
+
+<offer id="200197328" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pie651t14e</url>
+    <price>6609</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528594</picture>
+    <name><![CDATA[Варочная поверхность Bosch PIE651T14E]]></name>
+    <vendorCode><![CDATA[00000008405]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>электрическая</li>
+<li>стеклокерамическая поверхность</li>
+<li>индукционные конфорки</li>
+<li>переключатели сенсорные</li>
+<li>защита от детей</li>
+<li>индикатор остаточного тепла</li>
+</ul>]]></description>
+</offer>
+<offer id="200197326" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pib679t14e</url>
+    <price>7559</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528592</picture>
+    <name><![CDATA[Варочная поверхность Bosch PIB679T14E]]></name>
+    <vendorCode><![CDATA[00000008378]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>электрическая</li>
+<li>стеклокерамическая поверхность</li>
+<li>индукционные конфорки</li>
+<li>конфорка с овальной зоной нагрева</li>
+<li>переключатели сенсорные</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200197323" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pib675l34e</url>
+    <price>11835</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528590</picture>
+    <name><![CDATA[Варочная поверхность Bosch PIB675L34E]]></name>
+    <vendorCode><![CDATA[00000008394]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>электрическая</li>
+<li>стеклокерамическая поверхность</li>
+<li>индукционные конфорки</li>
+<li>конфорка с овальной зоной нагрева</li>
+<li>переключатели сенсорные</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200197322" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pib672e14e</url>
+    <price>7384</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528587</picture>
+    <name><![CDATA[Варочная поверхность Bosch PIB672E14E]]></name>
+    <vendorCode><![CDATA[00000008377]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>электрическая</li>
+<li>стеклокерамическая поверхность</li>
+<li>индукционные конфорки</li>
+<li>конфорка с овальной зоной нагрева</li>
+<li>переключатели сенсорные</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200197316" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pcp615b80r</url>
+    <price>1966</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528581</picture>
+    <name><![CDATA[Варочная поверхность Bosch PCP615B80R]]></name>
+    <vendorCode><![CDATA[00000008399]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>газовая</li>
+<li>панель из нержавеющей стали</li>
+<li>4 газовые конфорки</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>независимая установка</li>
+</ul>]]></description>
+</offer>
+<offer id="200197317" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pcp615b90e</url>
+    <price>2141</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528580</picture>
+    <name><![CDATA[Варочная поверхность Bosch PCP615B90E]]></name>
+    <vendorCode><![CDATA[00000008379]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>газовая</li>
+<li>панель из нержавеющей стали</li>
+<li>4 газовые конфорки</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>независимая установка</li>
+</ul>]]></description>
+</offer>
+<offer id="200197315" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pcp615b80e</url>
+    <price>2189</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528577</picture>
+    <name><![CDATA[Варочная поверхность Bosch PCP615B80E]]></name>
+    <vendorCode><![CDATA[00000008404]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>газовая</li>
+<li>панель из нержавеющей стали</li>
+<li>4 газовые конфорки</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>независимая установка</li>
+</ul>]]></description>
+</offer>
+<offer id="200197313" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pch615b90e</url>
+    <price>2062</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528576</picture>
+    <name><![CDATA[Варочная поверхность Bosch PCH615B90E]]></name>
+    <vendorCode><![CDATA[00000008372]]></vendorCode>
+    <description><![CDATA[<ul>
+<li><M>—</M>варочная поверхность 
+<li><M>—</M>газовая 
+<li><M>—</M>панель из нержавеющей стали 
+<li><M>—</M>4 газовые конфорки 
+<li><M>—</M>двухконтурная конфорка 
+<li><M>—</M>переключатели поворотные 
+<li><M>—</M>электроподжиг</li>
+</ul>]]></description>
+</offer>
+<offer id="200197310" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pbp615b81e</url>
+    <price>2096</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528574</picture>
+    <name><![CDATA[Варочная поверхность Bosch PBP615B81E]]></name>
+    <vendorCode><![CDATA[00000008384]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>газовая</li>
+<li>панель из нержавеющей стали</li>
+<li>4 газовые конфорки</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>независимая установка</li>
+</ul>]]></description>
+</offer>
+<offer id="200197314" available="true">
+    <url>http://realmart.com.ua/read/product/show/bosch-pcp612b80e</url>
+    <price>2054</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206882</categoryId>
+    <picture>http://realmart.com.ua/file/171528573</picture>
+    <name><![CDATA[Варочная поверхность Bosch PCP612B80E]]></name>
+    <vendorCode><![CDATA[00000008375]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>варочная поверхность</li>
+<li>газовая</li>
+<li>эмалированная поверхность</li>
+<li>4 газовые конфорки</li>
+<li>переключатели поворотные</li>
+<li>электроподжиг</li>
+<li>независимая установка</li>
+</ul>]]></description>
+</offer>
+
+<offer id="200198692" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-gorenje-wa-7</url>
+    <price>4053</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527888</picture>
+    <name><![CDATA[Стиральная машина Gorenje WA 612 SYW]]></name>
+    <vendorCode><![CDATA[00000005782]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 6 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1200 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+<offer id="200198835" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-15</url>
+    <price>6913</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527761</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston AQLF8F 29 U]]></name>
+    <vendorCode><![CDATA[00000005975]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 9 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1200 об/мин</li>
+<li>защита от протечек</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198839" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-19</url>
+    <price>4623</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527758</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston AQSD 09 U]]></name>
+    <vendorCode><![CDATA[00000005967]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 6 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1000 об/мин</li>
+<li>защита от протечек</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198847" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-27</url>
+    <price>3279</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527750</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston AQSL 09 U]]></name>
+    <vendorCode><![CDATA[00000005939]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 6 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1000 об/мин</li>
+<li>защита от протечек</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198848" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-28</url>
+    <price>3249</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527749</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston AQSL 85 U]]></name>
+    <vendorCode><![CDATA[00000005952]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 5 кг</li>
+<li>электронное управление</li>
+<li>отжим при 800 об/мин</li>
+<li>защита от протечек</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198853" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-33</url>
+    <price>5779</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527745</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston ARMXXL 129]]></name>
+    <vendorCode><![CDATA[00000005951]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>с сушкой белья</li>
+<li>cтирка до 7 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1200 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+<offer id="200198863" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-43</url>
+    <price>2579</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527736</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston ARSL 80]]></name>
+    <vendorCode><![CDATA[00000005981]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 5 кг</li>
+<li>электронное управление</li>
+<li>отжим при 800 об/мин</li>
+</ul>]]></description>
+</offer>
+<offer id="200198864" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-44</url>
+    <price>2214</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171527735</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston ARSL 85]]></name>
+    <vendorCode><![CDATA[00000005941]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 5 кг</li>
+<li>электронное управление</li>
+<li>отжим при 800 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+<offer id="200196747" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-ardo-flsn-1-5</url>
+    <price>3429</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206884</categoryId>
+    <picture>http://realmart.com.ua/file/171526498</picture>
+    <name><![CDATA[Стиральная машина Ardo FLSN 105 LA]]></name>
+    <vendorCode><![CDATA[00000006003]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>фронтальная загрузка</li>
+<li>cтирка до 5 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1000 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+<offer id="200198736" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-gorenje-wt-3</url>
+    <price>4791</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206885</categoryId>
+    <picture>http://realmart.com.ua/file/171527924</picture>
+    <name><![CDATA[Стиральная машина Gorenje WT 63130]]></name>
+    <vendorCode><![CDATA[00000006219]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>верхняя загрузка</li>
+<li>cтирка до 6 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1300 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+<offer id="200198733" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-gorenje-wt</url>
+    <price>3776</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206885</categoryId>
+    <picture>http://realmart.com.ua/file/171527921</picture>
+    <name><![CDATA[Стиральная машина Gorenje WT 62080]]></name>
+    <vendorCode><![CDATA[00000006218]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>верхняя загрузка</li>
+<li>cтирка до 6 кг</li>
+<li>электронное управление</li>
+<li>отжим при 800 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+<offer id="200198866" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-46</url>
+    <price>3367</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206885</categoryId>
+    <picture>http://realmart.com.ua/file/171527733</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston ARTF 104]]></name>
+    <vendorCode><![CDATA[00000006197]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>верхняя загрузка</li>
+<li>cтирка до 5 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1000 об/мин</li>
+<li>защита от протечек</li>
+<li>защита от детей</li>
+</ul>]]></description>
+</offer>
+<offer id="200198870" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-49</url>
+    <price>2958</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206885</categoryId>
+    <picture>http://realmart.com.ua/file/171527730</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston ARTL 83]]></name>
+    <vendorCode><![CDATA[00000006199]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>верхняя загрузка</li>
+<li>cтирка до 5 кг</li>
+<li>электронное управление</li>
+<li>отжим при 800 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+<offer id="200198874" available="true">
+    <url>http://realmart.com.ua/read/product/show/stiralnaya-mashina-hotpoint-ar-53</url>
+    <price>3900</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206885</categoryId>
+    <picture>http://realmart.com.ua/file/171527726</picture>
+    <name><![CDATA[Стиральная машина Hotpoint-Ariston ARTXF 149]]></name>
+    <vendorCode><![CDATA[00000006195]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>независимая установка</li>
+<li>верхняя загрузка</li>
+<li>cтирка до 6 кг</li>
+<li>электронное управление</li>
+<li>отжим при 1400 об/мин</li>
+<li>защита от протечек</li>
+</ul>]]></description>
+</offer>
+
+<offer id="200197244" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgn36s71</url>
+    <price>13536</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171528531</picture>
+    <name><![CDATA[Холодильник Bosch KGN36S71]]></name>
+    <vendorCode><![CDATA[00000007367]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник снизу</li>
+<li>зона свежести</li>
+<li>общий объем 289 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200197246" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgn36x25</url>
+    <price>6403</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171528530</picture>
+    <name><![CDATA[Холодильник Bosch KGN36X25]]></name>
+    <vendorCode><![CDATA[00000007374]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A</li>
+<li>морозильник снизу</li>
+<li>общий объем 287 л</li>
+<li>система No Frost</li>
+</ul>]]></description>
+</offer>
+<offer id="200197243" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgn36s56</url>
+    <price>12725</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171528529</picture>
+    <name><![CDATA[Холодильник Bosch KGN36S56]]></name>
+    <vendorCode><![CDATA[00000007369]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник снизу</li>
+<li>зона свежести</li>
+<li>общий объем 289 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200197236" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgf39pi23</url>
+    <price>12684</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171528525</picture>
+    <name><![CDATA[Холодильник Bosch KGF39PI23]]></name>
+    <vendorCode><![CDATA[00000007408]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник снизу</li>
+<li>зона свежести</li>
+<li>общий объем 309 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200197233" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kan58a55</url>
+    <price>17362</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171528522</picture>
+    <name><![CDATA[Холодильник Bosch KAN58A55]]></name>
+    <vendorCode><![CDATA[00000007375]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник сбоку</li>
+<li>общий объем 531 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200197231" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kan58a45</url>
+    <price>17849</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171528520</picture>
+    <name><![CDATA[Холодильник Bosch KAN58A45]]></name>
+    <vendorCode><![CDATA[00000007370]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник сбоку</li>
+<li>общий объем 531 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200197284" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgv39z35</url>
+    <price>5532</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171526495</picture>
+    <name><![CDATA[Холодильник Bosch KGV39Z35]]></name>
+    <vendorCode><![CDATA[00000007361]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник снизу</li>
+<li>общий объем 348 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200197240" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgn36s51</url>
+    <price>12725</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171526494</picture>
+    <name><![CDATA[Холодильник Bosch KGN36S51]]></name>
+    <vendorCode><![CDATA[00000007371]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник снизу</li>
+<li>зона свежести</li>
+<li>общий объем 289 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200197247" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgn36x45</url>
+    <price>6930</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171523767</picture>
+    <name><![CDATA[Холодильник Bosch KGN36X45]]></name>
+    <vendorCode><![CDATA[00000007366]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A</li>
+<li>морозильник снизу</li>
+<li>общий объем 287 л</li>
+<li>система No Frost</li>
+</ul>]]></description>
+</offer>
+<offer id="200197254" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgn39x45</url>
+    <price>7513</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171523766</picture>
+    <name><![CDATA[Холодильник Bosch KGN39X45]]></name>
+    <vendorCode><![CDATA[00000007368]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A</li>
+<li>морозильник снизу</li>
+<li>общий объем 315 л</li>
+<li>система No Frost</li>
+</ul>]]></description>
+</offer>
+<offer id="200197242" available="true">
+    <url>http://realmart.com.ua/read/product/show/kholodilnik-bosch-kgn36s55</url>
+    <price>12725</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206891</categoryId>
+    <picture>http://realmart.com.ua/file/171523303</picture>
+    <name><![CDATA[Холодильник Bosch KGN36S55]]></name>
+    <vendorCode><![CDATA[00000007373]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>холодильник с морозильником</li>
+<li>отдельно стоящий</li>
+<li>двухкамерный</li>
+<li>класс A+</li>
+<li>морозильник снизу</li>
+<li>зона свежести</li>
+<li>общий объем 289 л</li>
+</ul>]]></description>
+</offer>
+<offer id="200196566" available="true">
+    <url>http://realmart.com.ua/read/product/show/pylesos-zelmer-syrius-1600-3-h</url>
+    <price>1035</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206894</categoryId>
+    <picture>http://realmart.com.ua/file/171534815</picture>
+    <name><![CDATA[Пылесос Zelmer Syrius 1600.3 HQ]]></name>
+    <vendorCode><![CDATA[00000010513]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>сухая уборка</li>
+<li>с мешком для сбора пыли</li>
+<li>работа от сети</li>
+<li>потребляемая мощность 1900 Вт</li>
+<li>клавиша управления на рукоятке</li>
+<li>вес 5.3 кг</li>
+</ul>]]></description>
+</offer>
+<offer id="200196563" available="true">
+    <url>http://realmart.com.ua/read/product/show/pylesos-zelmer-syrius-1600-0-h</url>
+    <price>1065</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206894</categoryId>
+    <picture>http://realmart.com.ua/file/171534812</picture>
+    <name><![CDATA[Пылесос Zelmer Syrius 1600.0 HQ]]></name>
+    <vendorCode><![CDATA[00000010514]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>сухая уборка</li>
+<li>с мешком для сбора пыли</li>
+<li>работа от сети</li>
+<li>потребляемая мощность 1900 Вт</li>
+<li>вес 5.3 кг</li>
+</ul>]]></description>
+</offer>
+<offer id="200196531" available="true">
+    <url>http://realmart.com.ua/read/product/show/pylesos-zelmer-aquario-819-0-s-1</url>
+    <price>711</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206894</categoryId>
+    <picture>http://realmart.com.ua/file/171534791</picture>
+    <name><![CDATA[Пылесос Zelmer Aquario 819.0 SP]]></name>
+    <vendorCode><![CDATA[00000010525]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>сухая уборка</li>
+<li>с аквафильтром</li>
+<li>без мешка для сбора пыли</li>
+<li>работа от сети</li>
+<li>потребляемая мощность 1600 Вт</li>
+<li>вес 10.2 кг</li>
+</ul>]]></description>
+</offer>
+<offer id="200196530" available="true">
+    <url>http://realmart.com.ua/read/product/show/pylesos-zelmer-aquario-819-0-s</url>
+    <price>1100</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206894</categoryId>
+    <picture>http://realmart.com.ua/file/171534790</picture>
+    <name><![CDATA[Пылесос Zelmer Aquario 819.0 SK]]></name>
+    <vendorCode><![CDATA[00000010504]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>сухая уборка</li>
+<li>с аквафильтром</li>
+<li>без мешка для сбора пыли</li>
+<li>работа от сети</li>
+<li>потребляемая мощность 1500 Вт</li>
+<li>вес 10.2 кг</li>
+</ul>]]></description>
+</offer>
+
+<offer id="200198752" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-greta-1470-00-isp-17-gy</url>
+    <price>1212</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527937</picture>
+    <name><![CDATA[Плита GRETA 1470-00 исп.17 GY]]></name>
+    <vendorCode><![CDATA[00000007209]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>механическое управление</li>
+<li>размеры (ШхГхВ) 50x54x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198751" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-greta-1470-00-isp-17-bn</url>
+    <price>1138</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527936</picture>
+    <name><![CDATA[Плита GRETA 1470-00 исп.17 BN]]></name>
+    <vendorCode><![CDATA[00000007208]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>механическое управление</li>
+<li>размеры (ШхГхВ) 50x54x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198747" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-greta-1470-00-isp-12-wh</url>
+    <price>1224</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527934</picture>
+    <name><![CDATA[Плита GRETA 1470-00 исп. 12 WH]]></name>
+    <vendorCode><![CDATA[00000007201]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>механическое управление</li>
+<li>размеры (ШхГхВ) 50x54x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198742" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-greta-1470-00-isp-07-bn</url>
+    <price>1805</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527930</picture>
+    <name><![CDATA[Плита GRETA 1470-00 исп. 07 BN]]></name>
+    <vendorCode><![CDATA[00000007210]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>механическое управление</li>
+<li>электроподжиг механический</li>
+<li>размеры (ШхГхВ) 50x53.5x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198914" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-c-34s-n</url>
+    <price>3189</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527709</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston C 34S N1 (W)]]></name>
+    <vendorCode><![CDATA[00000007115]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>электродуховка</li>
+<li>эмалированная панель</li>
+<li>гриль электрический</li>
+<li>механическое управление</li>
+<li>класс потребления энергии C</li>
+<li>электроподжиг механический</li>
+</ul>]]></description>
+</offer>
+<offer id="200198912" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-c-34s-g-2</url>
+    <price>3189</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527708</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston C 34S G3 (W)]]></name>
+    <vendorCode><![CDATA[00000007110]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>гриль газовый</li>
+<li>механическое управление</li>
+<li>электроподжиг автоматический</li>
+<li>размеры (ШхГхВ) 50x60x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198910" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-c-34s-g</url>
+    <price>3278</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527707</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston C 34S G1 (W)]]></name>
+    <vendorCode><![CDATA[00000007112]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>гриль</li>
+<li>механическое управление</li>
+<li>электроподжиг механический</li>
+<li>размеры (ШхГхВ) 50x60x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198917" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-c-3v-m5</url>
+    <price>4966</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527705</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston C 3V M5 (W)]]></name>
+    <vendorCode><![CDATA[00000007114]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрические конфорки</li>
+<li>электродуховка</li>
+<li>стеклокерамическая панель</li>
+<li>гриль электрический</li>
+<li>электронное управление</li>
+<li>дисплей</li>
+<li>размеры (ШхГхВ) 50x60x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198916" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-c-35s-p-1</url>
+    <price>4166</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527704</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston C 35S P6 (X)]]></name>
+    <vendorCode><![CDATA[00000007119]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>электродуховка</li>
+<li>эмалированная панель</li>
+<li>гриль электрический</li>
+<li>механическое управление</li>
+<li>класс потребления энергии A</li>
+<li>электроподжиг автоматический</li>
+</ul>]]></description>
+</offer>
+<offer id="200198919" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-ce-6v-m</url>
+    <price>4581</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171527702</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston CE 6V M3 (W)]]></name>
+    <vendorCode><![CDATA[00000007118]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>электрические конфорки</li>
+<li>электродуховка</li>
+<li>стеклокерамическая панель</li>
+<li>гриль электрический</li>
+<li>механическое управление</li>
+<li>класс потребления энергии B</li>
+<li>размеры (ШхГхВ) 60x60x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198748" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-greta-1470-00-isp-16-bn</url>
+    <price>1424</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171523856</picture>
+    <name><![CDATA[Плита GRETA 1470-00 исп. 16 BN]]></name>
+    <vendorCode><![CDATA[00000007206]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>механическое управление</li>
+<li>размеры (ШхГхВ) 50x54x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198750" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-greta-1470-00-isp-16-wh</url>
+    <price>1302</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171523855</picture>
+    <name><![CDATA[Плита GRETA 1470-00 исп. 16 WH]]></name>
+    <vendorCode><![CDATA[00000007203]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>эмалированная панель</li>
+<li>механическое управление</li>
+<li>размеры (ШхГхВ) 50x54x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198911" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-c-34s-g-1</url>
+    <price>3792</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171523845</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston C 34S G1 (X)]]></name>
+    <vendorCode><![CDATA[00000007117]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>газовая духовка</li>
+<li>панель из нержавейки</li>
+<li>гриль</li>
+<li>механическое управление</li>
+<li>электроподжиг механический</li>
+<li>размеры (ШхГхВ) 50x60x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200198915" available="true">
+    <url>http://realmart.com.ua/read/product/show/plita-hotpoint-ariston-c-35s-p</url>
+    <price>3900</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206898</categoryId>
+    <picture>http://realmart.com.ua/file/171523843</picture>
+    <name><![CDATA[Плита Hotpoint-Ariston C 35S P6 (W)]]></name>
+    <vendorCode><![CDATA[00000007113]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>газовые конфорки</li>
+<li>электродуховка</li>
+<li>гриль электрический</li>
+<li>механическое управление</li>
+<li>электроподжиг автоматический</li>
+<li>дисплей</li>
+<li>размеры (ШхГхВ) 50x60x85 см</li>
+</ul>]]></description>
+</offer>
+<offer id="200197924" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-electr-16</url>
+    <price>5225</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171529075</picture>
+    <name><![CDATA[Посудомоечная машина Electrolux ESF 46710]]></name>
+    <vendorCode><![CDATA[00000006370]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>узкая напольная</li>
+<li>не встраивается </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>дисплей</li>
+<li>бесшумная работа</li>
+</ul>]]></description>
+</offer>
+<offer id="200197920" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-electr-12</url>
+    <price>4788</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171529071</picture>
+    <name><![CDATA[Посудомоечная машина Electrolux ESF 45055 WR]]></name>
+    <vendorCode><![CDATA[00000006371]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>узкая напольная</li>
+<li>не встраивается </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>дисплей</li>
+<li>тихая работа</li>
+</ul>]]></description>
+</offer>
+<offer id="200197915" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-electr-6</url>
+    <price>4562</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171529069</picture>
+    <name><![CDATA[Посудомоечная машина Electrolux ESF 43020]]></name>
+    <vendorCode><![CDATA[00000006354]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>узкая напольная</li>
+<li>не встраивается </li>
+<li>возможность подключения к горячей воде</li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>тихая работа</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197373" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-bosch-7</url>
+    <price>4208</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528634</picture>
+    <name><![CDATA[Посудомоечная машина Bosch SKS 50E11]]></name>
+    <vendorCode><![CDATA[00000006449]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>компактная настольная</li>
+<li>не встраивается </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197372" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-bosch-6</url>
+    <price>4208</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528633</picture>
+    <name><![CDATA[Посудомоечная машина Bosch SKS 50E01]]></name>
+    <vendorCode><![CDATA[00000006454]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>компактная настольная</li>
+<li>не встраивается </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197371" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-bosch-5</url>
+    <price>3083</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528632</picture>
+    <name><![CDATA[Посудомоечная машина Bosch SKS 40E02]]></name>
+    <vendorCode><![CDATA[00000006447]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>компактная настольная</li>
+<li>не встраивается </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197370" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-bosch-4</url>
+    <price>7193</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528631</picture>
+    <name><![CDATA[Посудомоечная машина Bosch SKE 53M15]]></name>
+    <vendorCode><![CDATA[00000006461]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>компактная</li>
+<li>полностью встраиваемая</li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>дисплей</li>
+<li>тихая работа</li>
+</ul>]]></description>
+</offer>
+<offer id="200197368" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-bosch-2</url>
+    <price>3433</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528629</picture>
+    <name><![CDATA[Посудомоечная машина Bosch SGS 44E92]]></name>
+    <vendorCode><![CDATA[00000006457]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>полноразмерная напольная</li>
+<li>не встраивается </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197366" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-bosch</url>
+    <price>7743</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528627</picture>
+    <name><![CDATA[Посудомоечная машина Bosch SCE 53M25]]></name>
+    <vendorCode><![CDATA[00000006458]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>компактная</li>
+<li>встраивается</li>
+<li>свободный доступ к панели управления </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>дисплей</li>
+</ul>]]></description>
+</offer>
+<offer id="200197012" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-beko-d-7</url>
+    <price>3260</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528333</picture>
+    <name><![CDATA[Посудомоечная машина BEKO DSFN 1531 X]]></name>
+    <vendorCode><![CDATA[00000006275]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>полноразмерная напольная</li>
+<li>не встраивается </li>
+<li>сушка путем испарения горячих капель </li>
+<li>малый расход электричества</li>
+<li>тихая работа</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197011" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-beko-d-6</url>
+    <price>2905</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528332</picture>
+    <name><![CDATA[Посудомоечная машина BEKO DSFN 1531]]></name>
+    <vendorCode><![CDATA[00000006274]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>полноразмерная напольная</li>
+<li>не встраивается </li>
+<li>сушка путем испарения горячих капель </li>
+<li>малый расход электричества</li>
+<li>тихая работа</li>
+<li>тщательное полоскание посуды</li>
+</ul>]]></description>
+</offer>
+<offer id="200197003" available="true">
+    <url>http://realmart.com.ua/read/product/show/posudomoechnaya-mashina-beko-d</url>
+    <price>4548</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206899</categoryId>
+    <picture>http://realmart.com.ua/file/171528322</picture>
+    <name><![CDATA[Посудомоечная машина BEKO DFN 1001 X]]></name>
+    <vendorCode><![CDATA[00000006277]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>полноразмерная напольная</li>
+<li>не встраивается </li>
+<li>сушка путем испарения горячих капель </li>
+<li>экономичный расход воды </li>
+<li>минимальный расход электричества</li>
+<li>дисплей</li>
+<li>тихая работа</li>
+</ul>]]></description>
+</offer>
+<offer id="200196528" available="true">
+    <url>http://realmart.com.ua/read/product/show/myasorubka-zelmer-986-87</url>
+    <price>908</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206903</categoryId>
+    <picture>http://realmart.com.ua/file/171534789</picture>
+    <name><![CDATA[Мясорубка Zelmer 986.87]]></name>
+    <vendorCode><![CDATA[00000011201]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>мощность 650 Вт</li>
+<li>перерабатывает 1.5 кг/мин</li>
+<li>соковыжималка</li>
+<li>корпус из пластика</li>
+</ul>]]></description>
+</offer>
+<offer id="200196527" available="true">
+    <url>http://realmart.com.ua/read/product/show/myasorubka-zelmer-986-86</url>
+    <price>1040</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206903</categoryId>
+    <picture>http://realmart.com.ua/file/171534788</picture>
+    <name><![CDATA[Мясорубка Zelmer 986.86]]></name>
+    <vendorCode><![CDATA[00000011195]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>мощность 650 Вт</li>
+<li>перерабатывает 1.5 кг/мин</li>
+<li>насадка-терка</li>
+<li>насадка для шинковки</li>
+<li>соковыжималка</li>
+<li>корпус из пластика</li>
+</ul>]]></description>
+</offer>
+<offer id="200196525" available="true">
+    <url>http://realmart.com.ua/read/product/show/myasorubka-zelmer-986-84-sl</url>
+    <price>1044</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206903</categoryId>
+    <picture>http://realmart.com.ua/file/171534787</picture>
+    <name><![CDATA[Мясорубка Zelmer 986.84 SL]]></name>
+    <vendorCode><![CDATA[00000011206]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>мощность 650 Вт</li>
+<li>перерабатывает 1.5 кг/мин</li>
+<li>насадка для шинковки</li>
+<li>насадка для приготовления колбас</li>
+<li>корпус из пластика</li>
+<li>отсек для хранения насадок</li>
+</ul>]]></description>
+</offer>
+<offer id="200196524" available="true">
+    <url>http://realmart.com.ua/read/product/show/myasorubka-zelmer-986-83-expre</url>
+    <price>1117</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206903</categoryId>
+    <picture>http://realmart.com.ua/file/171534786</picture>
+    <name><![CDATA[Мясорубка Zelmer 986.83 Expressive]]></name>
+    <vendorCode><![CDATA[00000011187]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>мощность 650 Вт</li>
+<li>перерабатывает 1.5 кг/мин</li>
+<li>насадка-терка</li>
+<li>насадка для шинковки</li>
+<li>соковыжималка</li>
+<li>корпус из пластика</li>
+</ul>]]></description>
+</offer>
+<offer id="200196523" available="true">
+    <url>http://realmart.com.ua/read/product/show/myasorubka-zelmer-986-80</url>
+    <price>1233</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206903</categoryId>
+    <picture>http://realmart.com.ua/file/171534785</picture>
+    <name><![CDATA[Мясорубка Zelmer 986.80]]></name>
+    <vendorCode><![CDATA[00000011194]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>мощность 650 Вт</li>
+<li>перерабатывает 1.5 кг/мин</li>
+<li>насадка-терка</li>
+<li>соковыжималка</li>
+<li>корпус из пластика</li>
+<li>отсек для хранения насадок</li>
+</ul>]]></description>
+</offer>
+<offer id="200383887" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383887</url>
+    <price>267</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555640</picture>
+    <name><![CDATA[Clatronic MZ 3435]]></name>
+    <vendorCode><![CDATA[00000019673]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>измельчитель</li>
+<li>мощность 300 Вт</li>
+<li>объем чаши 1.50 л</li>
+<li>корпус из пластика</li>
+</ul>]]></description>
+</offer>
+<offer id="200383886" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383886</url>
+    <price>251</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555639</picture>
+    <name><![CDATA[Clatronic MZ 3434]]></name>
+    <vendorCode><![CDATA[00000019672]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>измельчитель</li>
+<li>мощность 300 Вт</li>
+<li>объем чаши 1 л</li>
+<li>корпус из пластика</li>
+</ul>]]></description>
+</offer>
+<offer id="200383885" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383885</url>
+    <price>249</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555638</picture>
+    <name><![CDATA[Clatronic MZ 3395]]></name>
+    <vendorCode><![CDATA[00000019671]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>измельчитель</li>
+<li>мощность 180 Вт</li>
+<li>объем чаши 1 л</li>
+<li>корпус из пластика</li>
+</ul>]]></description>
+</offer>
+<offer id="200383884" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383884</url>
+    <price>301</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555637</picture>
+    <name><![CDATA[Clatronic MZ 2877]]></name>
+    <vendorCode><![CDATA[00000019674]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>измельчитель</li>
+<li>мощность 350 Вт</li>
+<li>объем чаши 1.25 л</li>
+<li>эмульсионная насадка</li>
+<li>компактное хранение насадок</li>
+</ul>]]></description>
+</offer>
+<offer id="200383883" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383883</url>
+    <price>242</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555636</picture>
+    <name><![CDATA[Clatronic MZ 2619]]></name>
+    <vendorCode><![CDATA[00000019670]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>измельчитель</li>
+<li>мощность 100 Вт</li>
+<li>компактное хранение насадок</li>
+</ul>]]></description>
+</offer>
+<offer id="200383882" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383882</url>
+    <price>1978</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555635</picture>
+    <name><![CDATA[Clatronic KM 3354]]></name>
+    <vendorCode><![CDATA[00000019681]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>комбайн</li>
+<li>мощность 1000 Вт</li>
+<li>для большого количества продуктов</li>
+<li>мельничка для малых порций</li>
+</ul>]]></description>
+</offer>
+<offer id="200383881" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383881</url>
+    <price>843</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555634</picture>
+    <name><![CDATA[Clatronic KM 3352]]></name>
+    <vendorCode><![CDATA[00000019678]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>комбайн</li>
+<li>мощность 100 Вт</li>
+<li>блендер</li>
+<li>объем чаши 2.50 л</li>
+<li>диск для нарезки картофеля-фри</li>
+<li>корпус из пластика</li>
+</ul>]]></description>
+</offer>
+<offer id="200383880" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383880</url>
+    <price>775</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555633</picture>
+    <name><![CDATA[Clatronic KM 3333]]></name>
+    <vendorCode><![CDATA[00000019676]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>комбайн</li>
+<li>мощность 1000 Вт</li>
+<li>блендер</li>
+<li>объем чаши 2.50 л</li>
+<li>диск для нарезки картофеля-фри</li>
+<li>диск для шинковки</li>
+<li>эмульсионная насадка</li>
+</ul>]]></description>
+</offer>
+<offer id="200383879" available="true">
+    <url>http://realmart.com.ua/read/product/show/a200383879</url>
+    <price>579</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>200206930</categoryId>
+    <picture>http://realmart.com.ua/file/171555632</picture>
+    <name><![CDATA[Clatronic KM 3099]]></name>
+    <vendorCode><![CDATA[00000019675]]></vendorCode>
+    <description><![CDATA[<ul>
+<li>комбайн</li>
+<li>мощность 550 Вт</li>
+<li>блендер</li>
+<li>объем чаши 0.80 л</li>
+<li>диск для шинковки</li>
+</ul>]]></description>
+</offer>
+</offers>
+</shop>
+</yml_catalog>

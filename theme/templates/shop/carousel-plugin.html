@@ -1,0 +1,46 @@
+{% load i18n %}
+<div id="hero">
+    <div class="container">
+        <!-- starts carousel -->
+        <div class="row animated fadeInDown">
+            <div class="span12">
+                <div id="myCarousel" class="carousel slide">
+                    <!-- carousel items -->
+                    <div class="carousel-inner">
+                        <!-- slide -->
+                        {% for carousel in carousel_list %}
+                            <div class="{% if forloop.first %}active{% endif %} item slide{{ forloop.counter }}">
+                                <div class="row">
+                                    {% if forloop.counter|divisibleby:2 %}
+                                        <div class="span4 animated fadeInUpBig">
+                                            <h1>{{ carousel.name }}</h1>
+
+                                            <p>{{ carousel.description }}</p>
+                                            <a href="/shop/create/" class="btn btn-success btn-large">{% trans "Get a Store Now!" %}</a>
+                                        </div>
+                                        <div class="span6 animated fadeInDownBig">
+                                            <img src="{{ MEDIA_URL }}{{ carousel.image }}" alt="{{ carousel.name }}"/>
+                                        </div>
+                                    {% else %}
+                                        <div class="span6">
+                                            <img src="{{ MEDIA_URL }}{{ carousel.image }}" alt="{{ carousel.name }}"/>
+                                        </div>
+                                        <div class="span4">
+                                            <h1>{{ carousel.name }}</h1>
+
+                                            <p>{{ carousel.description }}</p>
+                                            <a href="/shop/create/" class="btn btn-success btn-large">{% trans "Get a Store Now!" %}</a>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
